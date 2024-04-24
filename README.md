@@ -13,3 +13,7 @@ Then, install the dependencies with the following command:
 ```bash
 pip install -r requirements.txt
 ```
+## Data Preprocessing
+> ❗️<span style="color:red">**Important**</span>:
+> for any data manypulation never use `reset_index=True`
+
