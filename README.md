@@ -17,3 +17,15 @@ pip install -r requirements.txt
 > ❗️<span style="color:red">**Important**</span>:
 > for any data manypulation never use `reset_index=True`
 
+## Dataset Preparation
+Two datasets are extracted from the original one: the first one contains the claims and their veridicity, the second one contains the questions and the answers used to verify the veridicity. The datasets are stored in the `data\postprocessed` folder.
+## Exploratory Analysis
+Some plots are generated to get some insights about the data:
+- The percentage of rejected claims per state.
+- The number of rejected claim per speaker.
+- The number of rejected claims per date.
+- The number of rejected claims per date and state.
+- The number of rejected claims per date and speaker.
+## Clustering
+Clustering analysis using LDA (Linear Dirichlet Allocation) is performed on the claims. The goal is to find the topics that are present in the claims.
+
