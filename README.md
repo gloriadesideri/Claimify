@@ -30,3 +30,5 @@ Some plots are generated to get some insights about the data:
 Clustering analysis using LDA (Linear Dirichlet Allocation) is performed on the claims. The goal is to find the topics that are present in the claims.
 An ANOVA analysis is performed to study whether the class assigned by the clustering to the claims is statistically significant.
 The p-value of the ANOVA shows that the topics assigned to the claims influence the distribution of the data.
+## Embeddings
+Warning: to make gensim work an outdated version of scipy is necessary (1.10.1) refer to this issue: https://github.com/piskvorky/gensim/issues/3525
